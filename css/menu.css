@@ -85,3 +85,74 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: var(--tg-theme-text-color);
+  background: var(--tg-theme-bg-color);
+}
+
+.continer {
+  max-width: 390px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: black; /* цвет фона установлен в черный */
+  text-align: center;
+  border-radius: 10px;
+}
+
+.img-box img {
+  width: 20%;
+  height: 20%;
+  border-radius: 100%;
+  box-shadow: rgba(255, 249, 0, 0.34) 0px 0px  100px 20px, rgba(255, 238, 3, 0.38) 0px 0px 60px 20px;
+}
+
+.name {
+  color: white;
+  font-size: large;
+  margin-bottom: 20%;
+}
+
+.inf {
+  max-width: 390px; /* ограничение ширины контейнера */
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(167, 166, 166, 0.281);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #b3b0b098;
+}
+
+.inf hr {
+  width: 95%;
+  color: rgb(128, 128, 128);
+  margin: 10px auto;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prename {
+  font-size: small;
+  color: rgb(128, 128, 128);
+}
+
+.tip {
+  font-size: small;
+  color: white;
+}
+
+
