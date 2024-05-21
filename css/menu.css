@@ -104,12 +104,16 @@ body {
 
 .continer {
   max-width: 390px;
-  margin: 20px auto;
+  height: 700px;
   padding: 20px;
   background-color: black; /* цвет фона установлен в черный */
   text-align: center;
   border-radius: 10px;
+  justify-content: space-evenly;
 }
+
+
+
 
 .img-box img {
   width: 20%;
