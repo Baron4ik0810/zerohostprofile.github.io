@@ -79,7 +79,22 @@ body {
   color: rgb(128, 128, 128);
 }
 
-.tip{
+.tip1{
+  font-size: x-small;
+  color: white;
+}
+
+.tip2{
+  font-size: x-small;
+  color: white;
+}
+
+.tip3{
+  font-size: x-small;
+  color: white;
+}
+
+.tip4{
   font-size: x-small;
   color: white;
 }
